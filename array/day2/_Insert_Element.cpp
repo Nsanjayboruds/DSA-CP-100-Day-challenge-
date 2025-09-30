@@ -5,7 +5,7 @@ using namespace std;
 int insert(int arr[], int n, int x, int cap, int pos)
 {
 
-    if (n == cap)
+    if (n == cap) 
         return n;
 
     int idx = pos - 1;
